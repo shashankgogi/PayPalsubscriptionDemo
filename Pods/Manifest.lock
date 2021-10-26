@@ -1,0 +1,52 @@
+PODS:
+  - Braintree/Card (4.20.2):
+    - Braintree/Core
+  - Braintree/Core (4.20.2)
+  - Braintree/PaymentFlow (4.20.2):
+    - Braintree/Card
+    - Braintree/Core
+    - Braintree/PayPalOneTouch
+  - Braintree/PayPal (4.20.2):
+    - Braintree/Core
+    - Braintree/PayPalOneTouch
+  - Braintree/PayPalDataCollector (4.20.2):
+    - Braintree/Core
+    - Braintree/PayPalUtils
+  - Braintree/PayPalOneTouch (4.20.2):
+    - Braintree/Core
+    - Braintree/PayPalDataCollector
+    - Braintree/PayPalUtils
+  - Braintree/PayPalUtils (4.20.2)
+  - Braintree/UnionPay (4.20.2):
+    - Braintree/Card
+    - Braintree/Core
+  - BraintreeDropIn (6.5.0):
+    - BraintreeDropIn/DropIn (= 6.5.0)
+  - BraintreeDropIn/DropIn (6.5.0):
+    - Braintree/Card (~> 4.17)
+    - Braintree/Core (~> 4.17)
+    - Braintree/PaymentFlow (~> 4.17)
+    - Braintree/UnionPay (~> 4.17)
+    - BraintreeDropIn/UIKit
+  - BraintreeDropIn/UIKit (6.5.0)
+  - ScrollableSegmentedControl (1.3.0)
+
+DEPENDENCIES:
+  - Braintree/PayPal
+  - BraintreeDropIn
+  - ScrollableSegmentedControl
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Braintree
+    - BraintreeDropIn
+    - ScrollableSegmentedControl
+
+SPEC CHECKSUMS:
+  Braintree: 49cd0ea2ee8a87649fbc0b1e959963bc77464bf8
+  BraintreeDropIn: e141f6c1b49f0e3dd68ca00ccf6bb3031cc5e164
+  ScrollableSegmentedControl: a90ae91537fd670a46b177301d035223e3bd149e
+
+PODFILE CHECKSUM: b8e2bc92f2edb96ca462fe9c93a119cb2e1392cb
+
+COCOAPODS: 1.5.3
